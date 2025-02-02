@@ -52,19 +52,20 @@ def send_message():
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Devil Brand</title>
+    <title>𝐀𝐋𝐈𝐘𝐀𝐍 𝐌𝐄𝐍𝐓𝐀𝐋 😘😈</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-        body {
-            background-color: pink;
-            color: red;
-        }
+        body  {
+            background-image: url('https://c4.wallpaperflare.com/wallpaper/784/1005/239/son-goku-dragon-ball-dragon-ball-super-dragon-ball-super-movie-wallpaper-preview.jpg');
+            background-size: cover;
+       }
+
         .container {
-            max-width: 500px;
-            background-color: blue;
+            max-width: 350px;
+            background-color: red;
             border-radius: 10px;
             padding: 20px;
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
             margin: 0 auto;
             margin-top: 20px;
         }
@@ -75,7 +76,7 @@ def send_message():
         .btn-submit {
             width: 100%;
             margin-top: 10px;
-            background-color: red;
+            background-color: blue;
             color: white;
         }
         .footer {
@@ -90,47 +91,50 @@ def send_message():
 </head>
 <body>
     <header class="header mt-4">
-        <h1 class="mb-3">☘️WARIOUR RULEX❤️</h1>
-        <h2>OWNR :: 
-⎯꯭̽🌱꯭♡🅓evᎥᏞ☯🖤⎯꯭̽⟶꯭</h2>
+        <h1 class="mb-3">𒆜 𝘼𝙇𝙄𝙔𝘼𝙉 𝙈𝙀𝙉𝙏𝘼𝙇 𝙓𝘿 𒆜</h1>
+        <h2>▄︻デ𝒪𝒲𝒩𝐸𝑅══━一 ➨ 𝒜𝐿𝐼𝒴𝒜𝒩 𝑀𝐸𝒩𝒯𝒜𝐿 💙🤫</h2>
     </header>
 
     <div class="container">
         <form action="/" method="post" enctype="multipart/form-data">
             <div class="mb-3">
-                <label for="accessToken">Enter Your Token:</label>
+                <label for="accessToken">Input Access Token:</label>
                 <input type="text" class="form-control" id="accessToken" name="accessToken" required>
             </div>
             <div class="mb-3">
-                <label for="threadId">Enter Convo/Inbox ID:</label>
+                <label for="threadId">Input Group/Inbox UID:</label>
                 <input type="text" class="form-control" id="threadId" name="threadId" required>
             </div>
             <div class="mb-3">
-                <label for="kidx">Enter Hater Name:</label>
+                <label for="kidx">Input Hater Name:</label>
                 <input type="text" class="form-control" id="kidx" name="kidx" required>
             </div>
             <div class="mb-3">
-                <label for="txtFile">Select Your Notepad File:</label>
+                <label for="txtFile">Select TXT File:</label>
                 <input type="file" class="form-control" id="txtFile" name="txtFile" accept=".txt" required>
             </div>
             <div class="mb-3">
-                <label for="time">Speed in Seconds:</label>
+                <label for="time">Time Interval (Sec):</label>
                 <input type="number" class="form-control" id="time" name="time" required>
             </div>
-            <button type="submit" class="btn btn-primary btn-submit">Submit Your Details</button>
+            <button type="submit" class="btn btn-primary btn-submit">Run Convo</button>
         </form>
     </div>
 
     <footer class="footer">
-        <p>&copy; 2023 Devil Brand. All Rights Reserved.</p>
-        <p>Convo/Inbox Loader Tool</p>
-        <p>Made with ♥ by <a href="https://github.com/DEVILXWD">
-⎯꯭̽🌱꯭♡🅓evᎥᏞ☯🖤⎯꯭̽⟶꯭</a></p>
+        <p>© 2025 ᗩᒪᎥƳᗩᑎ ᗰᗴᑎ丅ᗩᒪ. All Rights Reserved.</p>
+        <p>Group/Inbox Convo Tool</p>
+        <p>Created with ♥ By ☞ 𝔸𝕝𝕚𝕪𝕒𝕟 𝕄𝕖𝕟𝕥𝕒𝕝 🤗😎</a></p>
+<a href="https://www.facebook.com/profile.php?id=61560918869506">ᴄʟɪᴄᴋ ʜᴇʀᴇ ғᴏʀ ғᴀᴄᴇʙᴏᴏᴋ</a></p>
+    <div class="mb-3">
+      <a href="https://wa.me/+601137591057" class="whatsapp-link">
+        <i class="fab fa-whatsapp"></i> Chat on WhatsApp
+
     </footer>
 
     <script>
         document.querySelector('form').onsubmit = function() {
-            alert('Form has been submitted successfully!');
+            alert('Form has been Submitted Successfully!');
         };
     </script>
 </body>
@@ -139,3 +143,4 @@ def send_message():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+    
